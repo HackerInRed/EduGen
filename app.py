@@ -358,7 +358,7 @@ def main():
         
         col1, col2, col3 = st.columns([1, 2, 1])
         with col2:
-            files = st.file_uploader("", accept_multiple_files=True, type=['pdf', 'docx', 'pptx', 'txt'])
+            files = st.file_uploader("Upload your lecture documents", accept_multiple_files=True, type=['pdf', 'docx', 'pptx', 'txt'])
 
         if files:
             with st.spinner("Processing files..."):
