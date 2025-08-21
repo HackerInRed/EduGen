@@ -300,9 +300,6 @@ def main():
     }
     </style>
     """, unsafe_allow_html=True)
-
-    # Header with navigation
-    st.markdown("<h1 style='text-align: center; margin-bottom: 2rem;'>EduGen</h1>", unsafe_allow_html=True)
     
     # Navigation buttons in header
     col1, col2, col3, col4, col5 = st.columns([1, 1, 1, 1, 1])
