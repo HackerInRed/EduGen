@@ -8,3 +8,4 @@ faiss-cpu
 google-generativeai
 python-docx
 python-pptx
+fastembed

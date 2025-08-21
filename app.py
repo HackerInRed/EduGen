@@ -136,12 +136,12 @@ def quiz_chain():
     Generate 5 multiple choice questions based on the content.
     Format as JSON array:
     [
-        {
+        {{
             "question": "Question text?",
             "options": ["A", "B", "C", "D"],
             "correct_answer": 0,
             "explanation": "Why this is correct"
-        }
+        }}
     ]
     Context: {context}
     Generate Quiz JSON:
@@ -167,10 +167,10 @@ def cards_chain():
     Generate 10 flashcards based on the content.
     Format as JSON array:
     [
-        {
+        {{
             "front": "Term or concept",
             "back": "Definition or explanation"
-        }
+        }}
     ]
     Context: {context}
     Generate Flashcards JSON:
@@ -289,6 +289,7 @@ def main():
         padding-bottom: 1rem;
         padding-left: 1rem;
         padding-right: 1rem;
+        margin-top: 0.1rem;
     }
     .report-container {
         padding: 1rem;
